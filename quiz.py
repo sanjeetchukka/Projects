@@ -15,9 +15,7 @@ def load_scores(filename='scores.csv'):
     return scores
 
 def run_quiz(name):
-    score = 0
-    # code for running the quiz
-    
+    score = 0    
     ns=0    #ns=Score
     print("1.Capital of Afgahanistan\nA)Tirana\tB)Kabul\nC)Luanda\tD)Baku")
     a1=input()
